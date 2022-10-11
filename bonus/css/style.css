@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(219, 230, 233);
+}
+
+header{
+  background-color: white;
+  margin-bottom: 3rem;
+}
+
+header img{
+  height: 40px;
+  vertical-align:middle;
+}
+
+h1{
+  display: inline-block;
+  font-weight: 900;
+  vertical-align: middle;
+}
+
+.buttons-div{
+  width: 700px;
+  height: 4rem;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.button{
+  margin: 10px 0px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+button.add-task{
+  margin-left: 40px;
+  color: white;
+  background-color: skyblue;
+  border: none;
+}
+
+button.add-section{
+  color: lightgray;
+  background-color: white;
+  border: 1px solid lightgray;
+
+}
+
+section.list{
+  width: 700px;
+  height:700px;
+  background-color: white;
+  margin: 5px auto;
+  padding: 50px;
+}
+
+div.general{
+  margin: 10px;
+  line-height: 3rem;
+}
+
+li{
+  position: relative;
+}
+
+li.check{
+  list-style-type: none;
+  
+}
+
+li.check::before{
+  content: "✓" ;
+  color: green;
+  border: 20px;
+  border-color: green;
+  border-radius: 20px;
+  position: absolute;
+  transform: translateX(-120%);
+}
+
+li.uncheck{
+  list-style-type: none;
+}
+
+li.uncheck::before{
+  content: "✗" ;
+  color: red;
+  border: 20px;
+  border-color: red;
+  border-radius: 20px;
+  position: absolute;
+  transform: translateX(-120%);
+}
+
+span.tags{
+font-size: x-small;
+color: white;
+padding: 10px;
+border-radius: 8px;
+}
+
+span.editorial{
+  background-color: steelblue;
+}
+
+span.q1goals{
+  background-color: purple;
+}
+
+span.recruiting{
+  background-color: green;
+}
+
+span.mobile{
+  background-color: orange;
+}
+
+span.website{
+  background-color: violet;
+}
+
+span.sales{
+  background-color: rgb(128, 155, 87);
+}
