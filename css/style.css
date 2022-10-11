@@ -16,14 +16,13 @@ header{
 
 header img{
   height: 40px;
-  margin-top: 20px;
-  margin-left: 20px;
+  vertical-align:middle;
 }
 
 h1{
   display: inline-block;
   font-weight: 900;
-  vertical-align: auto;
+  vertical-align: middle;
 }
 
 .buttons-div{
