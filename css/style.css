@@ -18,11 +18,40 @@ header img{
   height: 40px;
   margin-top: 20px;
   margin-left: 20px;
-  
 }
 
 h1{
   display: inline-block;
   font-weight: 900;
   vertical-align: auto;
+}
+
+.buttons-div{
+  width: 700px;
+  height: 4rem;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.button{
+  margin: 10px 0px 5px 15px;
+}
+
+button.add-task{
+  margin-left: 40px;
+  color: white;
+  background-color: skyblue;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+button.add-section{
+  color: lightgray;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
 }
