@@ -66,12 +66,18 @@ div.general{
   line-height: 3rem;
 }
 
+li{
+  position: relative;
+}
+
 .check{
   list-style-type: none;
 }
 
 li.check::before{
   content: "✅" ;
+  position: absolute;
+  transform: translateX(-100%);
 }
 
 .uncheck{
@@ -80,6 +86,8 @@ li.check::before{
 
 li.uncheck::before{
   content: "⛔" ;
+  position: absolute;
+  transform: translateX(-100%);
 }
 
 span.tags{
