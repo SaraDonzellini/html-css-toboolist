@@ -35,6 +35,9 @@ h1{
 
 .button{
   margin: 10px 0px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
 }
 
 button.add-task{
@@ -42,16 +45,19 @@ button.add-task{
   color: white;
   background-color: skyblue;
   border: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-weight: 600;
 }
 
 button.add-section{
   color: lightgray;
   background-color: white;
   border: 1px solid lightgray;
-  padding: 10px;
-  border-radius: 10px;
-  font-weight: 600;
+
+}
+
+section.list{
+  width: 700px;
+  height:900px;
+  background-color: white;
+  margin: 5px auto;
+  padding: 50px;
 }
