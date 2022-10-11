@@ -67,13 +67,19 @@ div.general{
 }
 
 .check{
-  color: green;
-  font-size: larger;
+  list-style-type: none;
+}
+
+li.check::before{
+  content: "✅" ;
 }
 
 .uncheck{
-  color: red;
-  font-size: larger;
+  list-style-type: none;
+}
+
+li.uncheck::before{
+  content: "⛔" ;
 }
 
 span.tags{
